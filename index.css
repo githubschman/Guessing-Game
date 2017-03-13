@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+h1{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size:60px;
+	color:#00c4cc;
+	text-transform: uppercase;
+	line-height: 0.7;
+	
+}
+
+h2{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size:45px;
+	color:#00c4cc;
+	line-height: 0.7;
+	
+}
+
+h3{
+	
+	font-family: 'Open-Sans', sans-serif;
+	color:#ffffff;
+	font-weight:400;
+	
+}
+
+p{
+	
+	font-family: 'Open-Sans', sans-serif;
+	color:#ffffff;
+	font-weight:400;
+	
+}
+
+
+
+
+
+
+#header{
+	padding: 5px; 
+	background:white;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 3px #ddff00;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+body{
+	background:#00c4cc;
+	background-image:  url("https://static.wixstatic.com/media/831ce8_bff65fd89ca64b25ad2d3ca5ad1d6dff~mv2.png?dn=background+%282%29.png");
+	
+}
+
+
+#featureImage{
+	 pointer-events: none;
+}
+
+
+#footer img {
+
+    width: 300px;
+
+}

@@ -37,7 +37,19 @@ p{
 	
 }
 
+ul{
 
+	list-style: none; 
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+li{
+	background: #00c4cc;
+	border: 2px solid #ddff00;
+	padding: 10px;
+}
 
 
 
@@ -45,6 +57,19 @@ p{
 #header{
 	padding: 5px; 
 	background:white;
+}
+
+
+#guess-input{
+	padding-left: 100px;
+	float:left;
+	
+}
+
+#past-guesses{
+	color: #ffffff;
+	float:right;
+	width: 33%;
 }
 
 #footer {
@@ -68,7 +93,49 @@ body{
 
 
 #footer img {
-
     width: 300px;
-
 }
+
+
+
+
+.button {
+    background-color: #00c4cc; /* Green */
+    border: 2px solid #ddff00;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button2 {
+    background-color: #ddff00; /* Green */
+    border: none;
+    color: #00c4cc;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

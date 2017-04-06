@@ -1,10 +1,18 @@
 <!DOCTYPE html>
+
+<!-- Your GuessingGame.js file must be included after your jQuery file so that you have access to jQuery in your .js file! -->
+
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Guessing Game Part 1</title>
-        <script src="index.js"></script>
+        <title>Sarah's Guessing Game</title>
+        
+          <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+          
+          <script src="index.js"></script>
+          
+          
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -16,7 +24,7 @@
         <div id="header">
         
             <h1>Play the Guessing Game</h1>
-            <h2>guess a number betwen 1 - 100 !</h2>
+            <h2 id="subtitle">guess a number betwen 1 - 100 !</h2>
             
             </div>
             
@@ -28,36 +36,36 @@
         <!-- end of header -->
 
 
-        <!-- past guesses -->
+       
 
     <!-- guess input: -->
     
     <div id="guess-input">
-        <form>
             
-        <p>Guess: <input type="text" name="Guess" value="#"><br><br>
-        <input type="submit" value="Submit" class="button2"></p>
-        </form>
+        <p>Guess: <input type="text" name="Guess" id="player-input" placeholder="" maxlength='3' autofocus=autofocus><br><br>
+        <button class="button2" id="submit">submit</button>
+       
+    
+        <br><br>
         
+        
+        <button type="button" id="hint" class="button">Hint</button>
+        <button type="button" id="reset" class="button">Reset</button>
         <br>
-        <button type="button" class="button">Hint</button>
-        <button type="button" class="button">Reset</button>
-        <br>
+        
           <ul>
             <li>hint 1</li>
-            <li>hint 2</li>
-            <li>hint 3</li>
-            <li>no more hints!</li>
         </ul>
     </div>
 
         <div id="past-guesses">
-          <ul>
-            <li>99</li>
-            <li>98</li>
-            <li>97</li>
-            <li>96</li>
-            <li>95</li>
+          <ul id="guess-list">
+          <li>#</li>
+          <li>#</li>
+          <li>#</li>
+          <li>#</li>
+          <li>#</li>
+
         </ul>
     </div>
 

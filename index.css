@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
+
+
+
 h1{
 	
 	font-family: 'Oswald', sans-serif;
@@ -70,6 +73,7 @@ ul{
 	padding: 5px; 
 	background:white;
 	position: relative;
+	width: 85%;
 }
 
 
@@ -102,6 +106,15 @@ body{
 }
 
 
+input {
+	border: 0; 
+	font-size: 16px;
+	background: #eaeaea;
+	color: #00c4cc;
+	border-radius: 5px;
+	}
+
+
 #featureImage{
 	 pointer-events: none;
 }
@@ -115,7 +128,7 @@ body{
 
 
 .button {
-    background-color: #00c4cc; /* Green */
+    background-color: #00c4cc; 
     border: 2px solid #ddff00;
     color: white;
     padding: 15px 32px;
@@ -125,7 +138,7 @@ body{
 }
 
 .button2 {
-    background-color: #ddff00; /* Green */
+    background-color: #ddff00; 
     border: none;
     color: #00c4cc;
     padding: 5px 10px;
